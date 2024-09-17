@@ -22,7 +22,7 @@ public class N_thTribonacciNumber1137 {
             }
         }
         public static void main(String[] args) {
-            N_thTribonacciNumber p = new N_thTribonacciNumber();
+            N_thTribonacciNumber1137 p = new N_thTribonacciNumber1137();
             System.out.println(p.tribonacci(25));
         }
 }
