@@ -17,9 +17,9 @@ class TreeNode {
     }
 }
 public class CountCompleteTreeNodes222 {
-    public int countNodes(TreeNode root) {
-        if(root == null) return 0;
-       return countNodes(root.left) + countNodes(root.right) + 1;
+    public int countNodes(TreeNode root) {   //O(n) time and O(1) space
+        if(root == null) return 0;           //base case
+       return countNodes(root.left) + countNodes(root.right) + 1; //recursive case
    }
 
     public static void main(String[] args) {
