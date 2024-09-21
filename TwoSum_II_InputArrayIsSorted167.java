@@ -11,8 +11,7 @@ public class TwoSum_II_InputArrayIsSorted167 {
                 j--;
             }
         }
-        throw new IllegalArgumentException("No two sum solution");
-    }
+        return new int[]{-1, -1};    }
 
     public static void main(String[] args) {    
         TwoSum_II_InputArrayIsSorted167 p = new TwoSum_II_InputArrayIsSorted167();
