@@ -12,6 +12,7 @@ public class LargestNumberAtLeastTwiceOfOthers747 {
             } else if (smax < nums[i]) {
                 smax = nums[i];
             }
+             
         }
         if (smax * 2 <= max) {
             return maxIdx;
