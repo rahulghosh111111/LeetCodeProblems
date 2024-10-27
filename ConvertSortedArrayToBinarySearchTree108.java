@@ -30,4 +30,4 @@ public class ConvertSortedArrayToBinarySearchTree108 {
         System.out.println(root);
     }
 }
-// this code run in leetcode but not run here
+// this code runs in leetcode but not run here
